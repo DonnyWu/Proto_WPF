@@ -23,7 +23,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Elysian"
+            <TextBlock Text="Donnie"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
                        Foreground="White"
@@ -31,6 +31,13 @@
                        Margin="20,0, 0, 0">
                 
             </TextBlock>
+
+            <StackPanel Grid.Row="1">
+                <RadioButton Content="Home"
+                             Height="50"
+                             Foreground="White"
+                             FontSize= "14" Checked="RadioButton_Checked"/>
+            </StackPanel>
         </Grid>
     </Border>
 </Window>
